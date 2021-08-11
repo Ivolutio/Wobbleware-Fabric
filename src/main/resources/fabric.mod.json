@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "wobbleware",
+  "version": "${version}",
+  "name": "Wobbleware",
+  "description": "",
+  "authors": ["Ivolutio"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.wobblesoft.wobbleware.wobbleware.Wobbleware"
+    ]
+  },
+  "mixins": [
+    "wobbleware.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
